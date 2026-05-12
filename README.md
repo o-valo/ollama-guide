@@ -55,6 +55,8 @@ LLM LOKAL HOSTEN (VERSION 2026)
 
 MERKBLATT FUER DIE DEMO (KURZBEFEHLE):
 
+- ollama pull  llama3.2:1b  ->   läd das Model llama3.2:1b   aus dem Internet auf deinen Rechner
+- ollama run llama3.2:1b -> Startet das Modell llama3.2:1b bzw läd das Modell llama3.2:1b vorher aus dem Internet   
 - ollama list -> Zeigt alle heruntergeladenen Modelle an.
 - ollama ps -> Zeigt an, welches Modell gerade im Speicher aktiv ist.
 - top oder htop -> Um die Auslastung von CPU und RAM live zu sehen.
